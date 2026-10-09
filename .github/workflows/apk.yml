@@ -1,7 +1,9 @@
 # Builds a release APK on GitHub's runners (the dev box is too small for Gradle).
 # Pushes to main, pull requests and manual runs upload the APK as a workflow
-# artifact; a version tag (v1.2.3) also attaches it to a GitHub release. iOS and web are supported in the codebase but not built
-# here (docs/decisions/0001-flutter-over-pwa.md).
+# artifact; a CalVer tag (vYYYY.M.D, no zero padding, e.g. v2026.10.9) also
+# attaches it to a GitHub release. A tag containing '-' (v2026.10.9-rc1) is
+# published as a prerelease. iOS and web are supported in the codebase but not
+# built here (docs/decisions/0001-flutter-over-pwa.md).
 #
 # Optional signing secrets (without them the APK is signed with a debug key):
 #   ANDROID_KEYSTORE_BASE64  base64 of the upload keystore (.jks)
