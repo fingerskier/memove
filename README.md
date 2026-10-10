@@ -12,6 +12,10 @@ MeMove is a movement tracker.
   best-effort in the background and tells the user if anything other than the
   user stops it
 
+## Using It
+* You will find the latest Android versions here under releases
+* If you want another platform it should work but you have to build it yourself
+
 ## Decisions
 
 | # | Decision |
