@@ -15,7 +15,13 @@ class HomePage extends StatelessWidget {
     return ListenableBuilder(
       listenable: controller,
       builder: (context, _) => Scaffold(
-        appBar: AppBar(title: const Text('MeMove')),
+        appBar: AppBar(
+          leading: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Image.asset('assets/logo.png'),
+          ),
+          title: const Text('MeMove'),
+        ),
         body: ListView(
           children: [
             if (controller.lastGap case final gap?)

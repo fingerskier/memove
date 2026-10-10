@@ -38,8 +38,10 @@ MeMove from battery optimization (https://dontkillmyapp.com).
 ## Repository layout
 
 ```
+asset/            source artwork (logo.jpg)
 docs/decisions/   decision records
 flutter/          the app (see flutter/README.md)
+tool/             gen_icons.sh: regenerates all icons from asset/logo.jpg
 .github/workflows apk.yml
 ```
 

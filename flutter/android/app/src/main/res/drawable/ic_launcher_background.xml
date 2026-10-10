@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The logo's background; keep in sync with tool/gen_icons.sh -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="45"
+        android:startColor="#DFF8F2"
+        android:endColor="#EFEBF9" />
+</shape>
